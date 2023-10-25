@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  border: 3px solid red;
+  height: 50vh;
+  position: relative;
+}
+
+.child {
+  border: 2px solid green;
+  height: 60%;
+  width: 25%;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.grand-child {
+  border: 2px solid rgb(223, 135, 183);
+  background-color: lightblue;
+  width: 45%;
+  height: 35%;
+  position: absolute;
+  top: 2px;
+}
+
+.baby {
+  border: 2px solid red;
+  background-color: rgb(255, 200, 49);
+  width: 9%;
+  position: absolute;
+  left: 60px;
+}

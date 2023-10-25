@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: seagreen;
+  color: aquamarine;
+}
+
+h2 {
+  color: rgb(240, 135, 226);
+  text-align: left;
+  padding: 2%;
+}
